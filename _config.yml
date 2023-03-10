@@ -1,0 +1,29 @@
+# Site settings
+title: UK AI Fellows
+author:
+  email: 
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the UK AI Fellows events
+baseurl: "/" # the subpath of your site, e.g. /blog/
+#twitter_username: aistat
+github_username:  uk-ai
+
+author:
+  name: UK-AI
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: uk-ai/jekyll-theme
+style: uk-ai
+
+ghub:
+  edit: true
+  repository: aistats.github.io
+
+# Build settings
+markdown: kramdown
+
+# change encoding for the generated output files to utf-8
+encoding: utf-8

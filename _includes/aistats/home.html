@@ -1,0 +1,11 @@
+<h1>The Society for AI and Statistics</h1>
+
+{% if site.ghub.edit %}
+{% capture url %}https://github.com/{{ site.github_username }}/{% if site.ghub.repository %}{{ site.ghub.repository }}{% else %}{{ site.baseurl }}{% endif %}/edit/{% if site.ghub.repository contains 'github.io' %}master{% else %}gh-pages{% endif %}/_config.yml{% endcapture %}
+<p align="right">[<a href="{{ url }}" target="_blank" onclick="ga('send', 'event', 'Edit Page', 'Edit', '{{ url }}', 13);">edit</a>]</p>
+{% endif %}
+
+<p>Since its inception in 1985, AISTATS has been an interdisciplinary gathering of researchers at the intersection of artificial intelligence, machine learning, statistics, and related areas.</p>
+
+
+{{ content }}
