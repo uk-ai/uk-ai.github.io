@@ -11,7 +11,7 @@ title: Home
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
 {%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
   {% assign firstletter = repository.name | slice: 0, 2 %}
-    {%-if firstletter=='e-'and unless repository.description contains previous-%}
+    {%-if firstletter=='e-' and unless repository.description contains previous-%}
     <li>
     <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description }}</b></a>
     </li>
@@ -25,7 +25,7 @@ title: Home
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
 {%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
   {% assign firstletter = repository.name | slice: 0, 2 %}
-    {%-if firstletter=='e-'and repository.description contains previous-%}
+    {%-if firstletter=='e-' and repository.description contains previous-%}
     <li>
     <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(previous)" , "" }}</b></a>
     </li>
