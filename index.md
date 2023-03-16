@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-We organise meetings where UK AI researchers gather to share their ideas. Details of next and previous meetings can be found below.
+We organise meetings where UK AI researchers gather to share their ideas.
 
 <h3>Upcoming Meetings</h3>
 
