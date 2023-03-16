@@ -27,7 +27,7 @@ title: Home
   {% assign firstletter = repository.name | slice: 0, 2 %}
     {%-if firstletter=='e-'and repository.description contains previous-%}
     <li>
-    <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description|replace({'(previous)': ""}) }}</b></a>
+    <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(previous)" , "" }}</b></a>
     </li>
     {%-endif-%}
   {%- endunless -%}{%- endif -%}{%- endfor -%}
