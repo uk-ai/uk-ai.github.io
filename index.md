@@ -9,26 +9,32 @@ We organise meetings where UK AI researchers gather to share their ideas. The ne
 
 <ul>
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
-{%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
-  {% assign firstletter = repository.name | slice: 0, 2 %}
-    {%-if firstletter=='e-' and not repository.description contains '(previous)'-%}
-    <li>
-    <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description }}</b></a>
-    </li>
-    {%-endif-%}
-  {%- endunless -%}{%- endif -%}{%- endfor -%}
+{%- for repository in sorted reversed -%}
+  {%- if repository.has_pages -%}
+    {%- unless repository.name contains 'github.io' -%}
+      {%-if repository.description contains '(upcoming-event)'-%}
+        <li>
+          <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(upcoming-event)", "" }}</b></a>
+        </li>
+      {%-endif-%}
+    {- endunless -}
+  {%- endif -%}
+{%- endfor -%}
 </ul>
 
 <h3>Previous Meetings</h3>
 
 <ul>
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
-{%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
-  {% assign firstletter = repository.name | slice: 0, 2 %}
-    {%-if firstletter=='e-' and repository.description contains '(previous)'-%}
-    <li>
-    <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(previous)" , "" }}</b></a>
-    </li>
-    {%-endif-%}
-  {%- endunless -%}{%- endif -%}{%- endfor -%}
+{%- for repository in sorted reversed -%}
+  {%- if repository.has_pages -%}
+    {%- unless repository.name contains 'github.io' -%}
+      {%-if firstletter=='e-' and repository.description contains '(previous-event)'-%}
+        <li>
+          <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(previous-event)" , "" }}</b></a>
+        </li>
+      {%-endif-%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
 </ul>
