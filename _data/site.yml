@@ -1,0 +1,5 @@
+site_logo: /assets/images/uk-ai.svg
+site_logo_dark: /assets/images/uk-ai.svg
+footer_images:
+  - image: /assets/images/uk-ai.svg
+    link: "#"
