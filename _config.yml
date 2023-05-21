@@ -15,12 +15,12 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
+
 remote_theme: uk-ai/jekyll-theme
-style: uk-ai
 
 ghub:
   edit: true
-  repository: aistats.github.io
+  repository: uk-ai.github.io
 
 # Build settings
 markdown: kramdown
