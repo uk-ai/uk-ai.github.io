@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-We organise meetings where UK AI researchers gather to share their ideas.
+The UK AI community connects AI researchers from across the country. We organise meetings where UK AI researchers gather to share their ideas.
 
 <h3>Upcoming Meetings</h3>
 
