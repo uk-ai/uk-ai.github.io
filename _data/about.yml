@@ -1,11 +1,14 @@
 hero:
   title: About Us
 body: |
-  <h4>UK AI</h4>
+  <h2>UK AI</h2>
   
   <p>The UK AI community connects AI researchers from across the country, our mission is to create a hub where researchers and practitioners can come together, 
   share insights, and build academic relationships. By providing such a platform, we can advance together the use of cutting-edge AI technologies for 
   social good.</p>
+
+  <p>The community is focused on several research around AI and ML and their applications. These include but are not limited to: Core ML, Ethics and 
+  Trusthworthy AI, Human Computer Interaction (HCI), Robotics, Science, Healthcare, Smart Cities, and Digital Twins.</p>
   
   <p>The following tenets drive the UK AI community:</p>
 
