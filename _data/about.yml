@@ -2,4 +2,11 @@ hero:
   title: About Us
 body: |
   <h4>UK AI</h4>
-  <p>UK AI is the homepage for documenting events organised by the group of UK AI fellows as part of forging the UK AI community.</p>
+  
+  <p>The UK AI community connects AI researchers from across the country, our mission is to create a hub where researchers and practitioners can come together, 
+  share insights, and build academic relationships. By providing such a platform, we can advance together the use of cutting-edge AI technologies for 
+  social good.</p>
+  
+  <p>The following tenets drive the UK AI community:</p>
+
+  <p><strong>Collaborations are key:</strong> AI research and UK AI will advance more if the different actors work together.</p>
