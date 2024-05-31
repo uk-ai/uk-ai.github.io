@@ -26,7 +26,6 @@ The UK AI community connects AI researchers from across the country. We organise
 
 <ul>
 {%- assign sorted = site.github.public_repositories | sort: 'created_at' -%}
-{{ sorted }}
 {%- for repository in sorted reversed -%}
   {%- if repository.has_pages -%}
     {%- unless repository.name contains 'github.io' -%}
