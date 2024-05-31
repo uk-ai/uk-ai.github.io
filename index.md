@@ -32,6 +32,7 @@ The UK AI community connects AI researchers from across the country. We organise
       {%- if repository.description contains '(previous-event)' -%}
         <li>
           <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(previous-event)" , "" }}</b></a>
+          <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.created_date }}</b></a>
         </li>
       {%- endif -%}
     {%- endunless -%}
