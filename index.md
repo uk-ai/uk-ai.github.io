@@ -25,10 +25,9 @@ The UK AI community connects AI researchers from across the country. We organise
 <h3>Previous Meetings</h3>
 
 <ul>
-{%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
+{%- assign sorted = site.github.public_repositories | sort: 'created_at' -%}
 {{ sorted }}
 {%- for repository in sorted reversed -%}
-  {{repository}}
   {%- if repository.has_pages -%}
     {%- unless repository.name contains 'github.io' -%}
       {%- if repository.description contains '(previous-event)' -%}
