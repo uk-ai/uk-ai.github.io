@@ -26,12 +26,14 @@ The UK AI community connects AI researchers from across the country. We organise
 
 <ul>
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
+{{ sorted }}
 {%- for repository in sorted reversed -%}
+  {{repository}}
   {%- if repository.has_pages -%}
     {%- unless repository.name contains 'github.io' -%}
       {%- if repository.description contains '(previous-event)' -%}
         <li>
-          <a href="{{ repository.name | prepend: site.baseurlsite }}" target="_blank"><b>{{ repository.created_date | replace: "(previous-event)" , "" }}</b></a>
+          <a href="{{ repository.name | prepend: site.baseurlsite }}" target="_blank"><b>{{ repository.description | replace: "(previous-event)" , "" }}</b></a>
         </li>
       {%- endif -%}
     {%- endunless -%}
