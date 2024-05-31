@@ -14,7 +14,7 @@ The UK AI community connects AI researchers from across the country. We organise
     {%- unless repository.name contains 'github.io' -%}
       {%- if repository.description contains '(upcoming-event)' -%}
         <li>
-          <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(upcoming-event)", "" }}</b></a>
+          <a href="{{ repository.name | prepend: site.baseurlsite }}" target="_blank"><b>{{ repository.description | replace: "(upcoming-event)", "" }}</b></a>
         </li>
       {%- endif -%}
     {%- endunless -%}
@@ -31,7 +31,7 @@ The UK AI community connects AI researchers from across the country. We organise
     {%- unless repository.name contains 'github.io' -%}
       {%- if repository.description contains '(previous-event)' -%}
         <li>
-          <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description | replace: "(previous-event)" , "" }}</b></a>
+          <a href="{{ repository.name | prepend: site.baseurlsite }}" target="_blank"><b>{{ repository.created_date | replace: "(previous-event)" , "" }}</b></a>
         </li>
       {%- endif -%}
     {%- endunless -%}
