@@ -8,7 +8,7 @@ The UK AI community connects AI researchers from across the country. We organise
 <h3>Upcoming Meetings</h3>
 
 <ul>
-{%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
+{%- assign sorted = site.github.public_repositories | sort: 'created_at' -%}
 {%- for repository in sorted reversed -%}
   {%- if repository.has_pages -%}
     {%- unless repository.name contains 'github.io' -%}
