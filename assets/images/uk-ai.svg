@@ -62,7 +62,7 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-family:&quot;Roboto&quot;,Arial, Helvetica, Verdana, Tahoma,sans-serif;text-transform:uppercase;font-weight:bold;font-size:160"
+     style="font-family:&quot;Roboto&quot;,Arial, Helvetica, Verdana, Tahoma,sans-serif;text-transform:uppercase;font-weight:bold;font-size:160px"
      x="89.362587"
      y="69.894539"
      id="text392"><tspan
@@ -70,5 +70,5 @@
        id="tspan390"
        x="89.362587"
        y="69.894539"
-       style="font-family:&quot;Roboto&quot;,Arial, Helvetica, Verdana, Tahoma,sans-serif;text-transform:uppercase;font-weight:bold;font-size:160">UK AI</tspan></text>
+       style="font-family:&quot;Roboto&quot;,Arial, Helvetica, Verdana, Tahoma,sans-serif;text-transform:uppercase;font-weight:bold;font-size:160px">UK AI</tspan></text>
 </svg>
