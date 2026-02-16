@@ -1,12 +1,12 @@
 main:
   - label: About
     link: /about/
-  - label: UK AI Conference
+  - label: UK AI Conference 2026
     link: /ukai2026/
-  - label: UK AI Hackathon
-    link: /e-hackathon-march-2023/
-  - label: UK AI Fellows Day
-    link: /e-fellows-day-cambridge-2022/
+  - label: UK AI Conference 2025
+    link: /ukai2025/
+  - label: UK AI Conference 2024
+    link: /ukai2024/
 footer:
   - label: About
     link: /about
