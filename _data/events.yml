@@ -1,0 +1,24 @@
+# Home-page event cards. The page sorts these by date, newest first.
+# Leave image out to show the UK AI logo. An end date of today or later shows Upcoming.
+- name: UK AI Conference 2026
+  date: 2026-09-30
+  url: /ukai2026/
+  image: /assets/images/events/ukai2026.jpg
+- name: UK AI Conference 2025
+  date: 2025-06-24
+  url: /ukai2025/
+  image: /assets/images/events/ukai2025.jpg
+- name: UK AI Conference 2024
+  date: 2024-11-22
+  url: /ukai2024/
+  image: /assets/images/events/ukai2024.jpg
+- name: UK AI Conference 2023
+  date: 2023-05-25
+  url: /ukai2023/
+- name: UK AI Hackathon 2023
+  date: 2023-03-31
+  url: /e-hackathon-march-2023/
+  image: /assets/images/events/hackathon-2023.jpg
+- name: UK AI Fellows Day
+  date: 2022-12-07
+  url: /e-fellows-day-cambridge-2022/
