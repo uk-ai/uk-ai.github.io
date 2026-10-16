@@ -1,12 +1,14 @@
 main:
   - label: About
     link: /about/
-  - label: 2026
-    link: /ukai2026/
-  - label: 2025
-    link: /ukai2025/
-  - label: 2024
-    link: /ukai2024/
+  - label: Team
+    link: /team/
+  - label: Contact
+    link: /contact/
 footer:
   - label: About
-    link: /about
+    link: /about/
+  - label: Team
+    link: /team/
+  - label: Contact
+    link: /contact/
