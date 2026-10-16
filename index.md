@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-The UK AI community connects AI researchers from across the country. We organise meetings where UK AI researchers gather to share their ideas.
+The UK AI community is a hub where researchers and practitioners from across the country meet, share ideas, and build academic relationships. We organise accessible events focused on early-career researchers to build and promote technical AI, and to work together on its safety, responsibility, and trustworthiness.
 
 <link rel="stylesheet" href="{{ '/assets/css/events-grid.css' | relative_url }}">
 
