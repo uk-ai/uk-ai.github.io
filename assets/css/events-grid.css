@@ -1,3 +1,11 @@
+.event-grid__heading,
+.event-grid {
+  width: min(1100px, calc(100vw - 3rem));
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .event-grid__heading {
   margin: 2rem 0 1rem;
   font-size: 1.35rem;

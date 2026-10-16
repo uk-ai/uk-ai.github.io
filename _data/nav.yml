@@ -1,11 +1,11 @@
 main:
   - label: About
     link: /about/
-  - label: UK AI Conference 2026
+  - label: 2026
     link: /ukai2026/
-  - label: UK AI Conference 2025
+  - label: 2025
     link: /ukai2025/
-  - label: UK AI Conference 2024
+  - label: 2024
     link: /ukai2024/
 footer:
   - label: About
